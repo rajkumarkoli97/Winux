@@ -188,6 +188,8 @@ Disabling Windows Updates ensures that:
 
 7. When the script completes, **restart your PC**.
 
+> 💡 Note: If you see a `ctfmon.exe` error popup, thats normal. Run the `Suppress Windows Errors.reg` in `Stop Windows Update` folder to make it stop.
+
 ### ✅ Results
 - Windows Update will now be **completely disabled** (including fallback services).  
 - Your system will remain stable and lightweight, with **no background driver or telemetry reinstalls**.  
