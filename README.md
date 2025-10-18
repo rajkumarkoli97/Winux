@@ -158,8 +158,6 @@ Disabling Windows Updates ensures that:
 - Windows won’t automatically install **unwanted drivers or background services**.  
 - You maintain **full control** over what’s running on your PC.  
 
-> ⚠️ Keep in mind: Disabling updates also prevents security patches, so only do this if you know what you’re doing.
-
 <br>
 
 ### 🪜 Step-by-Step Instructions
