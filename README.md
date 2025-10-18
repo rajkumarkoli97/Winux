@@ -76,7 +76,20 @@ Turn any low-end PC into a fast, lightweight machine by **debloating Windows, di
 ### Post-Installation:
 - Customize wallpaper, taskbar, lock screen.  
 - Delete Atlas logo in `Customize Windows > User Account Pictures` folder if desired.  
-- Edit system info via `Edit System Information.ps1`.  
+- Edit system info via `Edit System Information.ps1`.
+  
+<br>
+
+> 💡 **Note:**  
+> If you’re on a **laptop** and your **main screen appears black or low resolution** after installing Atlas OS, don’t panic — it’s completely normal.  
+> This happens because Windows hasn’t installed your **graphics drivers** yet.  
+> 
+> Simply connect to Wi-Fi (if needed) and manually install your GPU drivers:
+> - 🟩 **NVIDIA laptops:** [NVIDIA Drivers](https://www.nvidia.com/Download/index.aspx)  
+> - 🔵 **AMD laptops:** [AMD Drivers](https://www.amd.com/en/support)  
+> - ⚪ **Intel laptops:** [Intel Drivers](https://www.intel.com/content/www/us/en/download-center/home.html)  
+> 
+> After installing and restarting, your display should return to normal with proper resolution and performance.
 
 <br>
 
