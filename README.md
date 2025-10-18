@@ -160,19 +160,28 @@ Disabling Windows Updates ensures that:
 
 > ⚠️ Keep in mind: Disabling updates also prevents security patches, so only do this if you know what you’re doing.
 
+<br>
+
 ### 🪜 Step-by-Step Instructions
 
-1. Open the folder named `Stop Windows Update`.  
-2. Inside, you’ll see several shortcuts — each points to a protected Windows folder that controls update services.  
-3. Start with the **Servicing** folder:
+1. **Run O&O ShutUp from Chris Titus Tool**:
+   - Run the Chris Titus tool with powershell from `Optimize Windows` Folder
+   - Open the **Tweaks → Advanced** section at the bottom of CTT.  
+   - Launch **O&O ShutUp**.  
+   - Go to the **Local Machine** section.  
+   - **Disable everything** in the **Windows Update section**, making sure **all buttons turn green** *(indicating “disabled”)*.  
+
+2. Open the folder named `Stop Windows Update`.  
+3. Inside, you’ll see several shortcuts — each points to a protected Windows folder that controls update services.  
+4. Start with the **Servicing** folder:
    - Double-click to open it, then go up one directory by clicking on the **Windows** breadcrumb path at the top.  
    - Right-click the **Servicing** folder → **Take Ownership**.  
    - Right-click again → **Properties → Security → Advanced**.  
    - In the permission entries box, select any entry that says **SYSTEM**, then click **Disable Inheritance**.  
    - Choose **Convert inherited permissions into explicit permissions**, then remove all **SYSTEM** entries one by one.  
-4. Repeat the exact same steps for every shortcut inside the `Stop Windows Update` folder, **except** the one leading to `System32`.  
+5. Repeat the exact same steps for every shortcut inside the `Stop Windows Update` folder, **except** the one leading to `System32`.  
 
-5. Open the `System32` shortcut folder:
+6. Open the `System32` shortcut folder:
    - Use the search bar (top right) to find these files:
      - `wuauclt.exe`
      - `usoclient.exe`
@@ -182,14 +191,16 @@ Disabling Windows Updates ensures that:
      - Right-click again → **Properties → Security → Advanced**.  
      - Disable inheritance, convert permissions, and remove all **SYSTEM** entries.  
 
-6. Once finished, run the file:
+7. Once finished, run the file:
    - `Disable Updates and Driver Installation.bat`  
    - Right-click → **Run as Administrator**.  
 
-7. When the script completes, **restart your PC**.
+8. When the script completes, **restart your PC**.
 
-> 💡 Note: If you see a `ctfmon.exe` error popup, thats normal. Run the `Suppress Windows Errors.reg` in `Stop Windows Update` folder to make it stop.
+> 💡 Note: If you see a `ctfmon.exe` error popup, run the `Suppress Windows Errors.reg` in `Stop Windows Update` folder to make it stop.
 
+   <br>
+   
 ### ✅ Results
 - Windows Update will now be **completely disabled** (including fallback services).  
 - Your system will remain stable and lightweight, with **no background driver or telemetry reinstalls**.  
@@ -197,19 +208,10 @@ Disabling Windows Updates ensures that:
 
 > 💡 Tip: You can still manually update apps or drivers later if needed — just be careful not to re-enable Windows Update accidentally.
 
-
+<br>
 
 ## 9️⃣ Final Cleanup 🧹
 
 - Disable all startup apps: `Settings > Apps > Startup`.  
 - Verify unnecessary processes are gone.  
 - Enjoy your **fast, lightweight, and optimized Windows 11** system.  
-
-
-### References
-
-- [Rufus](https://rufus.ie/)  
-- [Windows 11 24H2 ISO](https://windows-11.en.uptodown.com/windows/download/1029251675)  
-- [Unattended XML](https://github.com/memstechtips/UnattendedWinstall/blob/main/autounattend.xml)  
-- [Atlas OS](https://github.com/AtlasOS)  
-- [Chris Titus Tools](https://christitus.com/windows-optimization-tools/)
