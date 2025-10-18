@@ -26,13 +26,11 @@ Turn any low-end PC into a fast, lightweight machine by **debloating Windows, di
 
 ## 1️⃣ Required Files & Tools
 
-- **Rufus** 
-- **Windows 11 24H2 ISO**  
-- **Unattended XML**
-- **Atlas OS** (AME Wizard + Playbook `.apbx`)  
+- **Rufus** → [Download Rufus](https://rufus.ie/)  
+- **Windows 11 24H2 ISO** → [Download ISO](https://windows-11.en.uptodown.com/windows/download/1029251675)  
+- **Unattended XML** → [autounattend.xml](https://github.com/memstechtips/UnattendedWinstall/blob/main/autounattend.xml)  
+- **Atlas OS** (AME Wizard + Playbook `.apbx`)  [Download Atlas OS](https://atlason.net)
 - **Chris Titus Tool** for additional tweaks  
-
-> 💡 *Installation:* All of these Files are available in the `Required Files` Folder in the ZIP.
 
 <br>
 
