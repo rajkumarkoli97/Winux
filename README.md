@@ -152,6 +152,8 @@ Windows has multiple fallback update systems that often **override** user settin
 Even after using Atlas OS, Windows may **revert** your optimization changes by reinstalling bloatware, telemetry, background drivers, and third-party software (like Tobii Eye Tracker, Intel Services, or Thunderbolt utilities).  
 These services run silently in the background and can **severely impact performance**.  
 
+<br>
+
 ### 🔧 Why Disable Updates
 Disabling Windows Updates ensures that:
 - Atlas OS and your performance tweaks **remain intact**.  
