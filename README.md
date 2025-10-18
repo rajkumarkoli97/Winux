@@ -4,7 +4,7 @@ Turn any low-end PC into a fast, lightweight machine by **debloating Windows, di
 
 <br>
 
-> ⚠️ **Warning:** Advanced modifications. Backup all important data before proceeding.
+> ⚠️ **Warning:** Backup all important data before proceeding.
 
 <br>
 
