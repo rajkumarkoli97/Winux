@@ -1,7 +1,7 @@
 $services = @(
     "Spooler","SSDPSRV","SstpSvc","DoSvc","SysMain","Fax","DiagTrack","DPS","WdiSystemHost",
     "TextInputManagementService","CameraEventService","Themes","UnistoreSvc_993e2",
-    "UserDataSvc_993e2","PimIndexMaintenanceSvc_993e2","WpnService","WpnUserService_993e2",
+    "UserDataSvc_993e2","PimIndexMaintenanceSvc_993e2","WpnService","PhoneSvc","WpnUserService_993e2",
     "CDPSvc","CDPUserSvc_993e2","DevicesFlowUserSvc_993e2","UdkUserSvc_993e2",
     "StateRepository","InstallService","AppXSvc",
     "cbdhsvc_69f04","CDPUserSvc_69f04","DsSvc","DusmSvc","ElevocService","HvHost",
@@ -22,3 +22,4 @@ foreach ($svc in $services) {
         }
     }
 }
+
