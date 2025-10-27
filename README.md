@@ -164,8 +164,9 @@ Disabling Windows Updates ensures that:
 
 ### 🪜 Step-by-Step Instructions
 
-1. **Run O&O ShutUp from Chris Titus Tool**:
+1. **Disable Updates from Chris Titus Tool**:
    - Run the Chris Titus tool with powershell from `Optimize Windows` Folder
+   - Go to the **Updates** section and click on **Disable ALL Updates**
    - Open the **Tweaks → Advanced** section at the bottom of CTT.  
    - Launch **O&O ShutUp**.  
    - Go to the **Local Machine** section.  
